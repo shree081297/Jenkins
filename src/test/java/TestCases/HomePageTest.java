@@ -10,6 +10,7 @@ public class HomePageTest extends BaseClass{
 	@Test
 	public void TC_004() {
 		LoginPage lp=new LoginPage();
+		
 		String username=sheet.getRow(1).getCell(0).getStringCellValue();
 		System.out.println(username);
 		String password=sheet.getRow(1).getCell(1).getStringCellValue();
